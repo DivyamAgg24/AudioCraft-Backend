@@ -300,5 +300,6 @@ def internal_error(e):
     return jsonify({"message": "Internal server error. Please try again."}), 500
 
 if __name__ == "__main__":
+    port = os.getenv("PORT") or 3000
     app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
-    app.run(debug=True, port=3000, host="localhost")
+    app.run(debug=True, port=port, host="localhost")
