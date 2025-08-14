@@ -2,7 +2,7 @@ Flask
 Flask-Cors
 gunicorn
 google-genai
-TTS
+TTS=0.22.0
 numpy
 scipy
 python-dotenv
