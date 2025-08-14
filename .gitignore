@@ -1,0 +1,7 @@
+ebook
+.env
+
+test.py
+output_audiobook.wav
+temp_audiobook.wav
+__pycache__
