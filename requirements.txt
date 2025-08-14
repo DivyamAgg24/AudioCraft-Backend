@@ -1,7 +1,7 @@
 Flask
 Flask-Cors
 gunicorn
-google-generativeai
+google-google-genai
 TTS
 numpy
 scipy
